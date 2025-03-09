@@ -1,5 +1,11 @@
+import Head from "next/head";
+
 export default function Home() {
   return (
-    <p>Hello</p>
+    <>
+    <Head>
+      <title>my aza</title>
+    </Head>
+    </>
   );
 }
